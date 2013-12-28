@@ -1,182 +1,127 @@
-<!DOCTYPE html>
-<!-- saved from url=(0017)https://arkos.io/ and modified by Asheesh
-     this is purely a demo! -->
-<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta charset="utf-8">
-  <title>arkOS</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<head>
+    <title>Open Source Comes to Campus</title>
+    <link rel="stylesheet" href="./static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/css/style.css" type="text/css">
+</head>
 
-<link rel="stylesheet" href="https://arkos.io/wp-content/themes/sitetheme-arkos/assets/css/bootstrap.css">
-<link rel="stylesheet" href="https://arkos.io/wp-content/themes/sitetheme-arkos/assets/css/bootstrap-responsive.css">
-<link rel="stylesheet" href="https://arkos.io/wp-content/themes/sitetheme-arkos/assets/css/app.css">
-<script type="text/javascript" src="./index_files/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/wp-content/themes/sitetheme-arkos/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script type="text/javascript" src="./index_files/modernizr-2.6.2.min.js"></script>
-	<link rel="canonical" href="./index_files/index.html">
-<style type="text/css" id="syntaxhighlighteranchor"></style>
-<link rel="stylesheet" href="https://arkos.io/wp-content/themes/sitetheme-arkos/assets/css/font-awesome.min.css">
-
-
-<script type="text/javascript" src="./index_files/main.js"></script>
-<script type="text/javascript" src="./index_files/jquery.fitvids.js"></script>
-
-<script type="text/javascript">
-    $(function () {
-        $("[rel='tooltip']").tooltip();
-    });
-</script>
-
-  <link rel="alternate" type="application/rss+xml" title="arkOS Feed" href="https://arkos.io/feed/">
-<link type="text/css" rel="stylesheet" href="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/style.css"><script type="text/javascript" charset="utf-8" src="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/js/page_context.js"></script></head>
 <body class="home page" data-spy="scroll" data-target="#sidenav" screen_capture_injected="true">
+
 <div id="wrap">
-  <!--[if lt IE 7]><div class="alert">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</div><![endif]-->
 
-  <header class="banner navbar navbar-static-top" role="banner" style="display: none;">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-      <a class="brand" href="./index_files/index.html">
-        <img src="./index_files/logo-arkos-white-hd.png">
-      </a>
-      <nav class="nav-main nav-collapse" role="navigation">
-        <ul id="menu-main-menu" class="nav"><li class="dropdown menu-start"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="https://arkos.io/#">Start <b class="caret"></b></a>
-<ul class="dropdown-menu">
-	<li class="menu-what-is-arkos"><a href="https://arkos.io/what-is-arkos/">What is arkOS?</a></li>
-	<li class="menu-free-the-cloud"><a href="https://arkos.io/cloud">Free the Cloud</a></li>
-	<li class="menu-genesis"><a href="https://arkos.io/genesis/">Genesis</a></li>
-</ul>
-</li>
-<li class="dropdown menu-learn"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="https://arkos.io/#">Learn <b class="caret"></b></a>
-<ul class="dropdown-menu">
-	<li class="menu-getting-started"><a href="https://arkos.io/doc/getting-started/">Getting Started</a></li>
-	<li class="menu-genesis-applications"><a href="https://arkos.io/genesis/plugins">Genesis Applications</a></li>
-	<li class="menu-packages"><a href="https://arkos.io/doc/packages/">Packages</a></li>
-</ul>
-</li>
-<li class="menu-download"><a href="https://arkos.io/downloads/">Download</a></li>
-<li class="menu-discuss"><a href="https://bbs.arkos.io/">Discuss</a></li>
-<li class="dropdown menu-develop"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="https://arkos.io/#">Develop <b class="caret"></b></a>
-<ul class="dropdown-menu">
-	<li class="menu-contributions"><a href="https://arkos.io/dev/contributions/">Contributions</a></li>
-	<li class="menu-translations"><a href="https://trax.citizenweb.is/">Translations</a></li>
-	<li class="menu-roadmap"><a href="https://arkos.io/dev/roadmap">Roadmap</a></li>
-	<li class="menu-genesis"><a href="https://arkos.io/dev/genesis">Genesis</a></li>
-	<li class="menu-changelogs"><a href="https://arkos.io/dev/changelogs/">Changelogs</a></li>
-</ul>
-</li>
-<li class="menu-blog"><a href="https://arkos.io/blog/">Blog</a></li>
-<li class="menu-donate"><a href="https://donate.citizenweb.is/">Donate</a></li>
-<li class="dropdown menu-about"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="https://arkos.io/#">About <b class="caret"></b></a>
-<ul class="dropdown-menu">
-	<li class="menu-in-the-media"><a href="https://arkos.io/in-the-media/">In the Media</a></li>
-	<li class="menu-contact"><a href="https://arkos.io/contact/">Contact</a></li>
-	<li class="menu-using-irc"><a href="https://arkos.io/irc">Using IRC</a></li>
-	<li class="menu-2013-funding-campaign"><a href="https://fund.arkos.io/">2013 Funding Campaign</a></li>
-	<li class="menu-thank-you"><a href="https://arkos.io/thank-you/">Thank You!</a></li>
-</ul>
-</li>
-</ul>      </nav>
-    </div>
-  </div>
-</header>
-
-
-
-  <div class="wrap" role="document">
-    <div class="content">
-      <div class="main" role="main">
-          <div class="jumbotron masthead">
-<div class="container">
-<div class="videopane">
-            <iframe src="./index_files/78115143.html" frameborder="0" height="169" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe><br>
-            <a class="btn btn-large btn-primary" href="https://arkos.io/#" id="acthead">Go back</a>
+<div class="content">
+<div class="main" role="main">
+      <div class="jumbotron masthead">
+        <div class="container">
+            <div class="headerpane">
+                <center>
+                <h1>Bring open source to your campus.</h1>
+                <p class="lead">Open Source Comes to Campus is a one-day workshop to teach the tools and culture of open source development and to help students submit changes to real projects.  <a href="#">Twenty schools</a> have run this event.  What about yours?</p>
+                <button type="button" class="btn btn-lg btn-primary" href="#signup" id="actsignup"><span class="glyphicon glyphicon-ok-sign"></span> Get started</button> 
+                <button type="button" class="btn btn-lg btn-info" href="#learnmore"><span class="glyphicon glyphicon-question-sign"></span> Learn more</button>
+                </center>
+            </div>
         </div>
-<div class="headerpane">
-<h1>Bring open source to your campus.</h1>
-<p class="lead">Open Source Comes to Campus is a one-day workshop to teach the tools and culture of open source development and to help students submit changes to real projects.  <a href="#">Twenty schools</a> have run this event.  What about yours?
-</p>
-<p>            <a class="btn btn-large btn-success" href="#signup" id="actsignup"><i class="icon-facetime-video"></i> Get started</a> <a class="btn btn-large btn-primary" href="#learnmore"><i class="icon-question-sign"></i> Learn more</a>
-        </p></div>
-<p></p></div>
-</div>
-<div class="bluestripe">
-<div class="container">
-<div class="row-fluid">
-<div class="span4">
-<h2>Welcoming. <i class="icon-bolt pull-right"></i></h2>
-<p>Open Source Comes to Campus is a curriculum designed for newcomers to open source. We've honed the workshop over three years of practice with 20 student groups, minimizing social, technical, and knowledge dependencies. Now you can run an inviting event like that, too.</p></div>
-<div class="span4">
-<h2>Easy. <i class="icon-thumbs-up pull-right"></i></h2>
-<p>As the organizer of a local event, you'll get all the teaching resources you need: slides, hands-on exercises for students, and more. We'll help you find professional programers to help during the event, and curate "bitesize bugs" so your attendees have a gentle on-ramp into a real open source project.
-</p></div>
-<div class="span4">
-<h2>Practical. <i class="icon-lock pull-right"></i></h2>
-<p>Students will rave about the practical skills they'll learn: version control, how to communicate in a big software project, and how open source culture works. They'll gain new connections to professionals active in open source development.
-</p></div>
-</div>
-</div>
-</div>
-<div class="container">
-<h1 id="learnmore" style="text-align: center;">We provide...</h1>
-<div class="span8" style="float: none; margin-left: auto; margin-right: auto;">
-<div class="media">
-<h1 class="pull-left" style="margin-right: 20px;"><i class="icon-cogs icon-2x"></i></h1>
-<div class="media-body">
-<h3 class="media-heading">A curriculum built to engage students</h3>
+      </div>
+    </div> 
+	<div class="container no-space wide-container">
+	        <div class="row no-space">
+	            <div class="col-md-4 no-space">
+			<img src="./static/img/oh01.jpg" class="img-responsive">
+	            </div>
+		    <div class="col-md-4 no-space">
+			<img src="./static/img/oh03.jpg" class="img-responsive">
+		    </div>
+		    <div class="col-md-4 no-space">		
+			<img src="./static/img/oh02.jpg" class="img-responsive">
+		    </div>    
+		</div>
+	</div>
+<div class="container learnmore">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 id="learnmore">What is Open Source Comes to Campus?</h2>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-4">
+            <h3 class="media-heading"><span class="glyphicon glyphicon-ok"></span> A curriculum built to engage students.</h3>
+        </div>
+        <div class="col-md-8">
 <p>Our curriculum covers the practical skills students need to contribute to open source projects, such as using version control, issue trackers, and IRC. It creates connections between students and open source professionals who can explain how the community and culture works. And it gives students the opportunity to make real contributions to active open source projects - all in single day!</p> 
 <p>All of our curriculum materials are online, and most activities have instructor walkthroughs and/or screencasts as well. <a href="https://openhatch.org/wiki/Open_Source_Comes_to_Campus/Curriculum">Take a look</a> at what we offer. We're happy to help you adjust the curriculum to meet your needs, and do trainings for any activities or sections you don't feel comfortable with.</p>
-</div>
-</div>
-<div class="homedivide">
-<i class="icon-caret-down"></i></div>
-<div class="media">
-<h1 class="pull-left" style="margin-right: 20px;"><i class="icon-desktop icon-2x"></i></h1>
-<div class="media-body">
-<h3 class="media-heading">Logistical advice and tools</h3>
-<p>There are a number of logistical hurdles when planning an event, from finding space and checking equipment to ordering the right amount of food. We want to make this process as painless as possible, so we wrote a guide and a set of tools. You can use <a href="https://drive.google.com/?tab=mo&authuser=0#folders/0B4HP1ey91UqPb1RrN25YOFA4V3c">this shareable folder</a> to keep track of your progress, and to access the email templates, space checklists, and other resources we've created for you.</p>
-</div>
-</div>
-<div class="homedivide">
-<i class="icon-caret-down"></i></div>
-<div class="media">
-<h1 class="pull-left" style="margin-right: 20px;"><i class="icon-cloud icon-2x"></i></h1>
-<div class="media-body">
-<h3 class="media-heading">Publicity support</h3>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-4">
+            <h3 class="media-heading"><span class="glyphicon glyphicon-ok"></span> Logistical advice and tools</h3>
+        </div>
+        <div class="col-md-8">
+            <p>There are a number of logistical hurdles when planning an event, from finding space and checking equipment to ordering the right amount of food. We want to make this process as painless as possible, so we wrote a guide and a set of tools. You can use <a href="https://drive.google.com/?tab=mo&authuser=0#folders/0B4HP1ey91UqPb1RrN25YOFA4V3c">this shareable folder</a> to keep track of your progress, and to access the email templates, space checklists, and other resources we've created for you.</p>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-4">
+            <h3 class="media-heading"><span class="glyphicon glyphicon-ok"></span> Publicity support</h3>
+        </div>
+        <div class="col-md-8">
 <p>We'll provide you with a customizable <a href="https://openhatch.org/wiki/Open_Source_Comes_to_Campus/Logistics/Publicity_Website">publicity website</a> as well as template <a href="https://github.com/openhatch/open-source-comes-to-campus/tree/master/flyers/publicity_flyer_templates">flyers</a> and template <a href="https://drive.google.com/?tab=mo&authuser=0#folders/0B4HP1ey91UqPdkhaWDF1U2dhYzQ">publicity emails</a>. Want to get creative? We're happy to help you do additional publicity.</p>
-</div>
-</div>
-<div class="homedivide">
-<i class="icon-caret-down"></i></div>
-<div class="media">
-<h2 class="pull-left" style="margin-right: 20px;"><i class="icon-globe icon-3x"></i></h2>
-<div class="media-body">
-<h3 class="media-heading">Friendly and knowledgeable volunteers</h3>
-<p>We have a large network of open source enthusiasts who we'll ask to staff your event, and we can help you <a href="https://openhatch.org/wiki/Open_Source_Comes_to_Campus/Logistics#How_do_you_find_staff.3F">find new volunteers</a> as well. We'll also support you with a number of remote staff, including:</p>
+
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-4">
+            <h3 class="media-heading"><span class="glyphicon glyphicon-ok"></span> Friendly and knowledgeable volunteers</h3>
+        </div>
+        <div class="col-md-8">
+        <p>We have a large network of open source enthusiasts who we'll ask to staff your event, and we can help you <a href="https://openhatch.org/wiki/Open_Source_Comes_to_Campus/Logistics#How_do_you_find_staff.3F">find new volunteers</a> as well. We'll also support you with a number of remote staff, including:</p>
 <ul>
 <li>Throughout the entire event, at least one OpenHatch organizer will be available remotely.</li>
 <li>During the contributions workshop, we'll have maintainers of <a href="https://openhatch.org/wiki/OpenHatch_affiliated_projects">selected projects</a> available to help guide attendees through contributing to said projects via IRC.</li>
-<li>If you want to do a career panel via videoconference, we can hook you up with some amazing people currently working in open source to be your panelists.</li>
+<li>If you want to do a career panel via videoconference, we can find you some amazing people currently working in open source to be your panelists.</li>
 </ul>
-</div>
-<div class="homedivide">
-<i class="icon-caret-down"></i></div>
-<h3 align="center">Sponsors</h3>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Sponsors</h2>
 <p>Open Source Comes to Campus has relationships with sponsors who frequently cover the cost of food and/or travel, and support our ability to help run these events. It is highly likely (though not guaranteed) that those sponsors will be willing to do the same for your event.</p>
-<p align="center"><img src="http://openhatch.org/blog/wp-content/uploads/2013/07/PL_logo_horizontal_RGB_sm.png" style="width: 300px; margin:15px;"> <img src="http://openhatch.org/blog/wp-content/uploads/2013/07/stripe.png" style="width: 300px; margin:15px;"> <img src="http://openhatch.org/blog/wp-content/uploads/2013/07/10gen.png" style="margin:15px;"> <span style="margin:15px;">&amp;</span> <span style="font-size: 400%;">Google</span></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="./static/img/google.png" class="img-responsive">
+        </div>
+        <div class="col-md-4">
+            <img src="http://openhatch.org/blog/wp-content/uploads/2013/07/stripe.png" class="img-responsive">
+        </div>
+        <div class="col-md-4">
+            <img src="http://openhatch.org/blog/wp-content/uploads/2013/07/10gen.png" class="img-responsive">
+        </div>
+        <div class="col-md-4">
+            <img src="http://openhatch.org/blog/wp-content/uploads/2013/07/PL_logo_horizontal_RGB_sm.png" class="img-responsive">
+        </div>
+    </div>
+    
 </div>
-<div class="homedivide">
-<i class="icon-caret-down"></i></div>
-<div class="media-body">
-<h3 id="signup" class="media-heading">Get started.</h3>
-<p>Copy and paste this into your email program. Be sure to replace the
-ALL_CAPS_WORDS with something relevant to you!</p>
-<p><div style="margin-top: 1em; background-color: #ddd; max-width: 550px; font-family: monospace; white-space: pre-wrap;">To: hello@openhatch.org
-Subject: Let's bring Open Source to Campus
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 id="signup"><span class="glyphicon glyphicon-send"></span> Get started.</h1>
+        </div>
+        <div class="col-md-4">
+        <p>Copy and paste the text to the right into your email program and contact us at <a href="mailto:hello@openhatch.org">hello@openhatch.org</a>. Be sure to replace the ALL_CAPS_WORDS with something relevant to you!</p>
+        <p>After you've emailed us, you may also wish to <a href="http://lists.openhatch.org/mailman/listinfo/osctc-planning">join the Open Source Comes to Campus mailing list</a>. You may also wish to <a href="https://twitter.com/openhatch">follow OpenHatch on Twitter</a> or <a href="https://openhatch/contact/">join the OpenHatch IRC channel</a>.</p>
+        </div>
+        <div class="col-md-8">
+<p><pre>
+To: hello@openhatch.org
+Subject: Let's bring Open Source Comes to Campus to COLLEGE_NAME
 
 Hi there! I'm so excited because I found the Open Source Comes to Campus page, and I want to run an event.
 
@@ -212,50 +157,14 @@ MY_NAME</div>
 </div>
 </div>
 <div class="bluestripe bottomstripe">
-<div class="container">
-<div class="row">
-<div class="span3">
-<h4>Stay in Touch</h4>
-<ul>
-<li><a href="https://twitter.com/openhatch"><i class="icon-twitter"></i> Twitter</a></li>
-<li><a href="https://openhatch/contact/"><i class="icon-twitter"></i> IRC</a></li>
-<li><a href="http://lists.openhatch.org/mailman/listinfo/osctc-planning"><i class="icon-envelope"></i> Mailing List</a></li>
-</ul>
-</div>
-<div class="span3">
-</div>
-<div class="span3 offset3">
-<h4>A project of</h4>
-<p><a href="https://openhatch.org/"><img src="https://openhatch.org/w/images/thumb/a/a6/Openhatch-logo.png/500px-Openhatch-logo.png" width="200px"></a>
-</p></div>
-</div>
-</div>
-</div>
-        </div><!-- /.main -->
-          </div><!-- /.content -->
-  </div><!-- /.wrap -->
-<div id="push" style="display:none;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-8">
+                <h4 class="pull-right">A project of <a href="https://openhatch.org/"><img src="https://openhatch.org/w/images/thumb/a/a6/Openhatch-logo.png/500px-Openhatch-logo.png" width="100px"></a></h4>
+            </div>
+        </div>
     </div>
-  <footer class="content-info" role="contentinfo" style="display: none;">
-  <div class="container">
-        <span style="font-size: 13px; line-height: 1.3;"><p>© 2013 <a href="https://citizenweb.is/">The CitizenWeb Project</a>. arkOS™, the arkOS Logo, Genesis™ and arkOS CONNECT™ are trademarks of The CitizenWeb Project.<br> Raspberry Pi is a trademark of the <a href="http://www.raspberrypi.org/">Raspberry Pi Foundation.</a> <em>Photo courtesy <a href="https://secure.flickr.com/photos/32716504@N03/">Flickr - SirMo76</a>.</em>
-</p>
-  </span></div>
-</footer>
-
-<script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://files.citizenweb.is/alg/" : "http://files.citizenweb.is/alg/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script src="./index_files/piwik.js" type="text/javascript"></script><script type="text/javascript">
-try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 2);
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {}
-</script><noscript>&lt;p&gt;&lt;img src="http://files.citizenweb.is/alg/piwik.php?idsite=2" style="border:0" alt="" /&gt;&lt;/p&gt;</noscript>
-
-<script type="text/javascript" src="./index_files/plugins.js"></script>
-<script type="text/javascript" src="./index_files/main.js"></script>
-
-
-</body></html>
+</div>
+</div>
+</body>
+</html>
