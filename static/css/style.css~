@@ -70,14 +70,6 @@ h1 {
   background-color:#3498DB;
 }
 
-.masthead a:link, 
-.masthead a:visited, 
-.masthead a:hover, 
-.masthead a:active {
-  color:white;
-  font-weight:bold;
-}
-
 .masthead-alt {
   background-color:#3498DB;
   margin-bottom: 0;
