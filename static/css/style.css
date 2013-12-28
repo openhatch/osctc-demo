@@ -95,15 +95,16 @@ h1 {
 }
 
 .pastpage h2 {
-  font-size:35px;
+  font-size:40px;
   font-weight:bold;
+  color:white;
 }
 
 .pastpage a:link, 
 .pastpage a:visited, 
 .pastpage a:hover, 
 .pastpage a:active {
-  color:white;
+  color:#cfed7e;
   font-weight:bold;
 }
 
