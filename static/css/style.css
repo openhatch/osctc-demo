@@ -84,27 +84,28 @@ h1 {
   text-align:center;
 }
 
-.pastpage {
+.pastevents {
   background-color:#3498DB;
   color:white;
 }
 
-.pastpage .endofpage{
+.pastevents .endofpe{
   padding-top: 35px;
   font-size: 20px;
 }
 
-.pastpage h2 {
+.pastevents h1 {
   font-size:40px;
   font-weight:bold;
   color:white;
+  text-align:center;
 }
 
-.pastpage a:link, 
-.pastpage a:visited, 
-.pastpage a:hover, 
-.pastpage a:active {
-  color:#cfed7e;
+.pastevents a:link, 
+.pastevents a:visited, 
+.pastevents a:hover, 
+.pastevents a:active {
+  color:white;
   font-weight:bold;
 }
 
@@ -112,4 +113,8 @@ h1 {
 .date {
   font-size:16px;
   font-style:italic;
+}
+
+.media-heading {
+  margin-bottom:10px;
 }
